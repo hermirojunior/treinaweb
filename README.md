@@ -1,5 +1,8 @@
 <h1 align="center"> 
-	🚧  TreinaWeb - Cursos 🚀 Em construção...  🚧
-	<h5>Cursos realizados na plataforma de ensino TreinaWeb</h5>
-	
-	[x] - HTML5 | CSS 3
+🚧  TreinaWeb - Cursos 🚀 Em construção...  🚧
+
+## Descrição do projeto :star:
+
+<p align="justify">
+Desenvolver uma plataforma capaz de gerar certificados em PDF de eventos e cursos para enviá-los por e-mail aos participantes.
+</p>
