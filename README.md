@@ -4,5 +4,6 @@
 ## Descrição do projeto :star:
 
 <p align="justify">
-Desenvolver uma plataforma capaz de gerar certificados em PDF de eventos e cursos para enviá-los por e-mail aos participantes.
+Cursos realizados na Plataforma de treinamento online TreinaWeb.
 </p>
+
