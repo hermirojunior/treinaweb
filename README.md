@@ -2,4 +2,4 @@
 	🚧  TreinaWeb - Cursos 🚀 Em construção...  🚧
 	<h5>Cursos realizados na plataforma de ensino TreinaWeb</h5>
 	
-	[ ] - HTML5 | CSS 3
+	[x] - HTML5 | CSS 3
