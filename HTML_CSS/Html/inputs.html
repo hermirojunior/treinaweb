@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tipos de Input</title>
+</head>
+<body>
+	<!-- Efetua validação se existe o caractere @ no dado informado-->
+	<input type="email"/><br><br>
+	<input type="search"/><br><br>
+	<input type="url"/><br><br>
+	<!-- Abre teclado numerico em celulares e tabelets-->
+	<input type="number"/><br><br>
+	<!-- Radio Button-> Utilizar os dois inputs com o mesmo nome, informa ao navegador que é referente ao mesmo campo com escolhas diferentes.-->
+	<h3>Informe o Sexo</h3>
+	<form>
+		<input type="radio" name="sexo">Mulher
+		<input type="radio" name="sexo" checked="checked">Homem
+	</form>
+	<br><br>
+	<!--CheckBox -> Serve para escolhas multiplas de algo.-->
+	<h3>Escolhas as cores que deseja</h3>
+	<form>
+		<input type="checkbox" name="cor1" >Azul
+		<input type="checkbox" name="cor2" >Amarelo
+		<input type="checkbox" name="cor3" >Vermelho
+	</form>
+	<br><br>
+	<!-- Types de Input de Data e Tempo (DATE, TIME, DATETIME-LOCAL, MONTH, WEEK)-->
+	<form>
+		<input type="date">
+		<br><br>
+		<input type="time">
+		<br><br>
+		<input type="datetime-local">
+		<br><br>
+		<input type="month">
+		<br><br>
+		<input type="week">
+		<br><br>
+	</form>
+	<br><br>
+	<!--Range-->
+	<input type="range" min="0" max="50" s>
+	<br><br>
+	<!--color-->
+	<input type="color">
+	 <br><br>
+	 <!--File-->
+	 <input type="file">
+	 <br><br>
+	 <!--Button-->
+	 <input type="button" value="Botão">
+	 <br><br>
+	 <!--Select e DataList-->
+	<select>
+		<option value="html">Html 5</option>
+		<option value="css">Css 3</option>
+		<option value="js">JavaScript</option>
+	</select>
+	<br><br>
+	<input list=browsers name="browser"> 
+	<datalist id="browsers">
+		<option value="Internet Explorer">
+		<option value="Firefox">
+		<option value="Google Chrome">
+		<option value="Opera">
+		<option value="Safari">
+	</datalist>
+	<br><br>
+	<!--FieldSet e Legend-->
+	<fieldset>
+		<legend>Cadastro</legend>
+		Nome: <input type="text"><br><br>
+		E-Mail: <input type="email"><br>
+	</fieldset>
+	<br><br>
+	<!--Label-->
+	<form autocomplete="on">
+		<label for="email">E-mail</label>
+		<input type="email" id="email">
+	</form>
+	<br><br>
+	<!--Output-->
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	0 <input type="range" id="a" value="50"> 100
+	+
+	<input type="number" id="b" value="50">
+	=
+	<output name="x" for="a b"></output>
+	</form>
+</body>
+</html>

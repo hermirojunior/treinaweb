@@ -1,1 +1,27 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>formularios</title>
+</head>
+<body>
+	<!--TAG Semantica de trabalho com Formularios-->
+	<form accept-charset="utf-8" autocomplete="on" action="http://www.nosso-servidor/cadastro/usuario.php" method="POST" enctype="multipart/form-data">
+	<!-- A propriedade accept-charset não é necessária uma vez que foi chamada na TAG <meta charset="UTF-8"> no Head da pagina. 
+		É uma possibilidade quando, precisamos trabalhar com um charset de formulario diferente do utilizado na pagina, ou vice versa.-->
+		<!--O proriedade de autocomplete sugere o auto completar das palavras dentro de um input depois que essa mesma palavra ja tiver sido digitada nesse campo.-->
+		<input type="text" name="email">
+		<!-- A propriedade Action define para onde os dados serão enviados. No caso para o servidor de hospedagem de nossa pagina.-->
+		<!-- A proriedade method especifica o metodo http que será usado na submissão do pagina (GET ou POST)-->
+	
+		<!--A propriedade enctype define se os dados do formulario precisam ser codificados antes de serem enviados ao Servidor-->
+	
+		<!-- A Propriedade novalidate impede a validação dos campo antes da Submissão (<form novalidate></form>)-->
+
+		<!-- 	A propriedade target indica onde a pagina de destino será aberta (<form target="_blank"></form>). 
+				No Exemplo a pagina de destino será aberta em outra pagina.-->
+		
+	</form>
+</body>
+</html>
