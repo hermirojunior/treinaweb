@@ -1,0 +1,12 @@
+﻿@font-face{
+	font-family: 'Roboto', sans-serif;
+	src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+}
+p{
+	font-size: 2.2rem;
+	font-family: 'Roboto', sans-serif;
+	font-variant: small-caps;
+	font-stretch: ultra-condensed;
+	letter-spacing: 10px;
+	text-color
+}
