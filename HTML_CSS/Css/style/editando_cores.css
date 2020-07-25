@@ -1,1 +1,15 @@
-﻿
+﻿/*
+	COLOR - Alterar a cor da Letra
+	BACKGROUND-COLOR  - Alterar a cor de fundo dos elementos.
+	OPACITY - 0 = transparente e 1 totalmente opaco.
+	BORDER-COLOR = Altera a cor da borda 
+
+*/
+div{
+	color:red;
+	background-color: yellow;
+	opacity: 0.5;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #00FF00;
+}

@@ -1,0 +1,6 @@
+﻿div{
+	display: inline-block;
+	width: calc((100% / 3) - 8px);
+	height: 200px;
+	background-color: tomato;
+}
