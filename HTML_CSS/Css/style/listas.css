@@ -1,0 +1,10 @@
+﻿#image li{
+	list-style-image: url(https://d2v0x26thbzlwf.cloudfront.net/prod/5/arquivos/seta.gif);
+}
+#position-inside li{
+	list-style-position: inside;
+}
+#position-outside li{
+	list-style-position: outside;
+	list
+}
