@@ -1,4 +1,8 @@
-﻿/** BORDER **/
+﻿thead{
+	background-color: #0062ac;
+	color: white;
+}
+/** BORDER **/
 .border{
 	border: 1px solid black;
 }
@@ -28,6 +32,7 @@
 }
 /** SPACING **/
 .spacing{
+	border: 1px solid black;
 	border-collapse: separate;
 	border-spacing: 10px 50px;
 }

@@ -1,0 +1,14 @@
+﻿*{
+	padding: 0;
+	margin:0;
+}
+#minhaDiv1{
+	width: 25%;
+	height: 400px;
+	background-color: aquamarine;
+}
+.minhaDiv2{
+	width: 25%;
+	height: 400px;
+	background-color: tomato;
+}
