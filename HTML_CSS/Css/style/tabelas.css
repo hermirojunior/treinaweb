@@ -1,0 +1,72 @@
+﻿/** BORDER **/
+.border{
+	border: 1px solid black;
+}
+.border th{
+	border: 1px solid black;
+}
+.border tr{
+	border: 1px solid black;
+}
+.border td{
+	border: 1px solid black;
+}
+
+/** COLLAPSE **/
+.collapse{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.collapse th{
+	border: 1px solid black;
+}
+.collapse tr{
+	border: 1px solid black;
+}
+.collapse td{
+	border: 1px solid black;
+}
+/** SPACING **/
+.spacing{
+	border-collapse: separate;
+	border-spacing: 10px 50px;
+}
+.spacing th{
+	border: 1px solid black;
+}
+.spacing tr{
+	border: 1px solid black;
+}
+.spacing td{
+	border: 1px solid black;
+}
+/** CAPTION SIDE **/
+.caption-side{
+	border: 1px solid black;
+	border-collapse: separate;
+}
+.caption-side th{
+	border: 1px solid black;
+}
+.caption-side tr{
+	border: 1px solid black;
+}
+.caption-side td{
+	border: 1px solid black;
+}
+.caption-side caption{
+	caption-side: top;
+}
+.empty-cells {
+	border: 1px solid black;
+	empty-cells: hide;
+}
+.empty-cells th{
+	border: 1px solid black;
+}
+.empty-cells tr{
+	border: 1px solid black;
+}
+.empty-cells td{
+	border: 1px solid black;
+}
