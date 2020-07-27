@@ -1,36 +1,73 @@
 ﻿<!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<title>Trem na WEB - PUB</title>
 </head>
 <body>
-	<!--Cabecalho-->
 	<header id="cabecalho">
+		<video src="./videos/copo_cerveja.mp4" autoplay muted loop></video>
 		<nav id="menu">
 			<ul>
-				<li><a href="#home">Home</a></li>
+				<li><a href="#cabecalho">Home</a></li>
 				<li><a href="#lugar">O Lugar</a></li>
 				<li><a href="#drinks">Nossos Drinks</a></li>
-				<li><a href="#endereco">Endereço</a></li>
-			</ul>
+				<li><a href="#contato">Contato</a></li>
+			</ul>	
 		</nav>
+		<img src="./images/logo.png" alt="Trem na Web">
 	</header>
-	<main>
-		<section id="home" >
-			<div id="video"> 
-				<video	src="./videos/copo_cerveja.mp4" autoplay loop ></video>
+	<main class="content">
+		<section id="lugar">
+			<div class="sect_container">
+				<br><br><br>
+				<h1 class="sect-title">O Lugar</h1>
+				<p class="sect-text">
+					Nosso PUB fica em um antigo trem que atravessava toda a Europa, e agora foi trazido para o Brasil.<br>
+					Cada vagão possui um estilo próprio. São 5 ambientes diferentes distribuidos em 10
+					vagões, oferecendo diversos tipos de música e bebidas.
+				</p">
 			</div>
-			<img src="./images/logo.png" alt="TREM NA WEB">
-		</section >
-
+		</section>
+		<section id="drinks">
+			<div class="sect_container">
+				<img src="./images/cocktails.jpg" alt="Nossos Drinks" class="img-drink">
+				<br><br><br>
+				<h1 class="sect-title">Nossos Drinks</h1>
+				<p class="sect-text">
+					Possuímos os mais diversos tipos de bebidas. Com certeza você encontrará um com a sua personalidade, o que torna o TremNaWeb um ótimo lugar para se reunir nas mais diversas ocasiões. Venha Conferir!
+				</p>
+			</div>
+		</section>
+		<footer id="contato">
+			<div class="sect_container2">
+				<section class="foot-sect">
+					<h1>Contato</h1>
+					<p>(XX) XXXXX-XXXX</p>
+					<p><a href="mailto:tremnaweb@exemplo.com.br">tremnaweb@exemplo.com.br</a> </p>
+					<p>(XX) XXXXX-XXXX</p>
+				</section >
+				<section class="foot-sect">
+					<h1>Endereço</h1>
+					<p>Rua do Teste, 1833</p>
+					<p>São Paulo - SP</p>
+					<p>(XX) XXXXX-XXXX</p>
+				</section >
+				<section class="foot-sect">
+					<h1>Funcionamento</h1>
+					<p>Segunda a Sexta-feira<br>
+						17:00 - 01:00
+					</p>
+					<p>Sábados, Domingos e Feriados<br>
+						16:00 - 04:00
+					</p>
+				</section >
+				
+			</div>
+		</footer>
 	</main>
-	<footer>
-
-	</footer>
 </body>
 </html>

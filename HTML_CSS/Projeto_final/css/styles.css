@@ -1,58 +1,123 @@
-﻿*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
+﻿html,body{
+	height: 100%;
+	margin:0;
+	font-family: "Roboto";
+	color:white;
+	background-color: #161616;
+	overflow-x: hidden;
 }
 #cabecalho{
+	position: relative;
+}
+#cabecalho video{
 	width: 100%;
-	height: 70px;
-	background-color: slateblue;
+}
+#menu{
 	position: fixed;
-}
-#menu ul{
-	padding: 0;
-	margin-top: 5px;
-	list-style: none;
-}
-#menu ul li{
-	display: inline;
-}
-#menu ul li a{
-	margin:10px;
-	padding: 5px 25px;
-	display: inline-block;
-	text-decoration: none;
-	color:#fff;
-	font-size: 1.7rem;
-	border-left: 3px solid #ededed;
-	transition: 1.0s;
-	text-align: center;
-}
-#menu ul li a:hover{
-	background-color: rgb(70, 223, 208);
-	color:#000;
-	font-weight: bold;
-}
-#video{
-	position:absolute;
+	top:0;
+	left:0;
 	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -1000;
+	background-color:#3b3b3b;
+	z-index: 100;
+}
+#menu li{
+	display: inline-block;
+	padding-right: 60px;
+}
+#menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	transition: 1.0s;
+	padding: 15px;
+}
+#menu a:hover{
+	background-color: rgb(224, 224, 224);
+	margin: 20px;
+	color:black;
+}
+#cabecalho img{
+	position: absolute;
+	max-width: 90%;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.content{
+	width: 100%;
+	height: 100%;
+}
+#lugar{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url('../images/bar_interior.jpg');
+	background-repeat: no-repeat;
 	background-size: cover;
 }
-#home img{
-	top:30%;
-	left:50%;
+#drinks{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url('../images/drinks_background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#contato{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url('../images/staff.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sect_container{
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.65);
+}
+.sect-title{
 	position: absolute;
-	transform: translate(-50%, 50%);
-	max-width: 90%;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+.sect-text{
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;;
+	padding:10px;
+	margin:0;
+	font-size: 18px;
+	position: absolute;
+	top:90%;
+}
+.img-drink{
+	max-width: 40%;
+	height: 100%;
+	float: left;	
+}
+.sect_container2{
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.65);
+	display:flex;
+	justify-content: space-around;
 
-
-
-
-
+}
+.foot-sect{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 33%;
+}
+.foot-sect h1{
+	font-size: 30px;
+}
+.foot-sect p{
+	font-size: 20px;
 }
