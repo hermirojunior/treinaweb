@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1596001691 source:d:\estudo\treinaweb\lógica de programação\linguagem c\exemplotriangulo\main.c
+	<stdio.h>
+	<stdlib.h>
+

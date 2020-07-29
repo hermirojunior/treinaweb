@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1595995968 source:d:\estudo\treinaweb\lógica de programação\linguagem c\estruturadecisao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
